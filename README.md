@@ -1,63 +1,45 @@
-# Finans Uygulaması
+# 📱 Bupara - Modern Finans & Dijital Cüzdan Deneyimi
 
-Bu proje, portföyümde kullanmak üzere hazırladığım modern bir finans sitesi demo uygulamasıdır. React ve Tailwind CSS ile oluşturulan bu proje, finansal ürün tanıtımı, fiyatlandırma planları ve müşteri referanslarını şık bir arayüzde sergilemek için tasarlandı.
+<p align="center">
+  <img src="https://i.ibb.co/wNNhP10S/Ekran-Resmi-2026-04-29-06-13-35.png" width="450" alt="Bupara Uygulama Mockup">
+</p>
 
-## Öne Çıkan Özellikler
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
 
-- Responsive ve modern tasarım
-- Dinamik fiyatlandırma kartları
-- Kullanıcı dostu bilgi bölümleri
-- Animasyonlu ve etkileşimli içerik
-- Sade, profesyonel bir portföy gösterimi
-
-## Kullanılan Teknolojiler
-
-- React
-- Tailwind CSS
-- Vite / Create React App (projede mevcut yapı)
-- React Icons
-- AOS animasyon kütüphanesi
-
-## Projeyi Çalıştırma
-
-1. Depoyu yerel sunucunuza klonlayın
-
-```bash
-git clone <repo-url>
-cd finans uygulaması
-```
-
-2. Gereklilikleri yükleyin
-
-```bash
-npm install
-```
-
-3. Geliştirme sunucusunu başlatın
-
-```bash
-npm start
-```
-
-4. Tarayıcınızda `http://localhost:3000` adresini açın
-
-## Dosya Yapısı
-
-- `src/components/` — yeniden kullanılabilir React bileşenleri
-- `src/data/` — site içeriği ve metin verileri
-- `src/pages/` — sayfa düzenleri
-- `src/style/` — genel stil tanımlamaları
-
-## Geliştirmek İçin
-
-- Yeni bölümler ekleyebilir veya mevcut içeriği güncelleyebilirsiniz
-- Fiyatlandırma planlarını dinamik hale getirebilirsiniz
-- Tasarımı istediğiniz renkler ile özelleştirebilirsiniz
-
-## Lisans
-
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+<p align="center">
+  <strong>Bupara</strong>, kullanıcıların finansal varlıklarını modern, güvenli ve minimalist bir arayüzle yönetmeleri için tasarlanmış bir dijital cüzdan demo uygulamasıdır.
+</p>
 
 ---
+
+## ✨ Öne Çıkan Özellikler
+
+- **Responsive Dashboard:** Tüm cihazlarla uyumlu, akıcı ve modern kullanıcı paneli.
+- **Dinamik Kart Yönetimi:** Özel degradeli ve etkileşimli sanal kart tasarımları.
+- **İşlem Takibi:** Ahmet Musab Çiçek ve Beren Nehir Köse gibi gerçekçi işlem verileriyle zenginleştirilmiş geçmiş ekranı.
+- **Animasyonlu Arayüz:** AOS kütüphanesi ile desteklenen, profesyonel geçiş efektleri.
+- **Pürüzsüz UX:** Tailwind CSS'in gücüyle optimize edilmiş, göz yormayan karanlık mod teması.
+
+## 🛠️ Teknik Stack
+
+- **Framework:** React & Vite
+- **Styling:** Tailwind CSS
+- **Animations:** AOS (Animate On Scroll)
+- **Icons:** React Icons & Lucide
+- **Deployment:** Vercel
+
+## 🚀 Hızlı Kurulum
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Repoyu Klonlayın:**
+   ```bash
+   git clone <repo-url>
+   cd bupara-finans
 
 **Not:** Bu proje, portföyümde kullanmak üzere kodlanmıştır ve lisanslıdır ticari amaçlarla kullanılması durumunda gerekli birimlere başvurulucaktır.

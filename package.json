@@ -1,0 +1,40 @@
+{
+  "name": "seriferenbilgic-finanssite",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Modern finance app landing page built with React and Tailwind CSS",
+  "keywords": [
+    "bupara",
+    "finance",
+    "landing-page",
+    "react",
+    "tailwindcss"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,45 +1,50 @@
-# 📱 Bupara - Modern Finans & Dijital Cüzdan Deneyimi
+# 🌐 Bupara - Modern Finansal Landing Page Tasarımı
 
 <p align="center">
-  <img src="https://i.ibb.co/wNNhP10S/Ekran-Resmi-2026-04-29-06-13-35.png" width="450" alt="Bupara Uygulama Mockup">
+  <img src="https://i.ibb.co/wNNhP10S/Ekran-Resmi-2026-04-29-06-13-35.png" width="550" alt="Bupara Web Preview">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
 <p align="center">
-  <strong>Bupara</strong>, kullanıcıların finansal varlıklarını modern, güvenli ve minimalist bir arayüzle yönetmeleri için tasarlanmış bir dijital cüzdan demo uygulamasıdır.
+  <strong>Bupara</strong>, modern finans dünyası için geliştirilmiş, yüksek etkileşimli ve kullanıcı deneyimi odaklı bir <strong>Landing Page</strong> projesidir.  
+  <em>"Profesyonel bir arayüz mimarisi ve portfolyo sunum çalışmasıdır."</em>
 </p>
 
 ---
 
-## ✨ Öne Çıkan Özellikler
+## 🎯 Projenin Amacı
+Bu çalışma; modern bir Fintech girişiminin web yüzünü; animasyonlar, modüler bileşen yapısı ve temiz kod prensipleriyle (Clean Code) hayata geçirmek amacıyla hazırlanmıştır. 
 
-- **Responsive Dashboard:** Tüm cihazlarla uyumlu, akıcı ve modern kullanıcı paneli.
-- **Dinamik Kart Yönetimi:** Özel degradeli ve etkileşimli sanal kart tasarımları.
-- **İşlem Takibi:** İşlem verileriyle zenginleştirilmiş geçmiş ekranı.
-- **Animasyonlu Arayüz:** AOS kütüphanesi ile desteklenen, profesyonel geçiş efektleri.
-- **Pürüzsüz UX:** Tailwind CSS'in gücüyle optimize edilmiş, göz yormayan karanlık mod teması.
+## ✨ Öne Çıkan Bölümler
 
-## 🛠️ Teknik Stack
+- **Hero Section:** Kullanıcıyı karşılayan, iddialı ve şık giriş alanı.
+- **Dinamik Fiyatlandırma:** React yapısı ile kurgulanmış, etkileşimli paket seçenekleri.
+- **Mockup Tasarımı:** Mobil uygulama deneyimini web üzerinden hissettiren görsel sunumlar.
+- **Performans:** Vite altyapısı sayesinde yüksek hızda yükleme süreleri ve optimize edilmiş bileşenler.
+- **AOS Katmanları:** Modern kaydırma animasyonları (Animate On Scroll) ile desteklenen akıcı kullanıcı deneyimi.
 
-- **Framework:** React & Vite
+## 🛠️ Teknik Altyapı
+
+- **Frontend:** React.js
 - **Styling:** Tailwind CSS
-- **Animations:** AOS (Animate On Scroll)
-- **Icons:** React Icons & Lucide
+- **Animation:** AOS (Animate On Scroll)
 - **Deployment:** Vercel
 
-## 🚀 Hızlı Kurulum
+## 🚀 Kurulum ve Çalıştırma
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+```bash
+# Projeyi klonlayın
+git clone <repo-url>
 
-1. **Repoyu Klonlayın:**
-   ```bash
-   git clone <repo-url>
-   cd bupara-finans
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme modunda başlatın
+npm run dev
 
 **Not:** Bu proje, portföyümde kullanmak üzere kodlanmıştır ve lisanslıdır ticari amaçlarla kullanılması durumunda gerekli birimlere başvurulucaktır.

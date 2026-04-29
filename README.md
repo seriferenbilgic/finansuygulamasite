@@ -46,5 +46,8 @@ npm install
 
 # Geliştirme modunda başlatın
 npm run dev
+```
+
 
 **Not:** Bu proje, portföyümde kullanmak üzere kodlanmıştır ve lisanslıdır ticari amaçlarla kullanılması durumunda gerekli birimlere başvurulucaktır.
+

@@ -21,7 +21,7 @@
 
 - **Responsive Dashboard:** Tüm cihazlarla uyumlu, akıcı ve modern kullanıcı paneli.
 - **Dinamik Kart Yönetimi:** Özel degradeli ve etkileşimli sanal kart tasarımları.
-- **İşlem Takibi:** Ahmet Musab Çiçek ve Beren Nehir Köse gibi gerçekçi işlem verileriyle zenginleştirilmiş geçmiş ekranı.
+- **İşlem Takibi:** İşlem verileriyle zenginleştirilmiş geçmiş ekranı.
 - **Animasyonlu Arayüz:** AOS kütüphanesi ile desteklenen, profesyonel geçiş efektleri.
 - **Pürüzsüz UX:** Tailwind CSS'in gücüyle optimize edilmiş, göz yormayan karanlık mod teması.
 

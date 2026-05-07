@@ -67,7 +67,7 @@ export default function Contact() {
       <div className="container mx-auto px-4 max-w-6xl relative z-10">
         {/* Header Section */}
         <div className="text-center mb-16" data-aos="fade-down">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl mb-6 mt-6">
             <FiMail className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-white via-indigo-300 to-purple-300 bg-clip-text text-transparent mb-6">
@@ -104,7 +104,7 @@ export default function Contact() {
 
             {/* Social Proof */}
             <div className="bg-gradient-to-r from-indigo-500 to-purple-600 p-6 rounded-2xl text-white" data-aos="fade-up">
-              <h3 className="text-lg font-bold mb-2">Nede Bupara?</h3>
+              <h3 className="text-lg font-bold mb-2">Neden Bupara?</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2">
                   <FiCheck className="w-4 h-4" />

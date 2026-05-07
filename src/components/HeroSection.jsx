@@ -1,14 +1,17 @@
 import { FiPlay, FiArrowRight, FiTrendingUp, FiShield, FiZap } from 'react-icons/fi';
 import LogoIcon from './LogoIcon';
+import { Link } from 'react-router-dom';
 
-export default function HeroSection() {
+export default function HeroSection({ loginSuccess = false }) {
   const scrollToFeatures = () => {
     const element = document.getElementById('features');
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const animationStyle = loginSuccess ? { opacity: 0, animation: 'loginSuccessFade 0.85s ease-out forwards' } : undefined;
+
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 pt-20 pb-12 relative overflow-hidden">
+    <section style={animationStyle} className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 pt-20 pb-12 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -53,11 +56,14 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="group bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-8 py-4 rounded-2xl hover:from-indigo-600 hover:to-purple-600 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3">
+            <Link
+              to="/login"
+              className="group bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-8 py-4 rounded-2xl hover:from-indigo-600 hover:to-purple-600 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center justify-center gap-3"
+            >
               <FiZap className="w-5 h-5" />
               Ücretsiz Kaydol
               <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Link>
             <button
               onClick={scrollToFeatures}
               className="group border-2 border-indigo-400 text-indigo-300 hover:bg-indigo-500 hover:text-white px-8 py-4 rounded-2xl transition-all duration-300 font-semibold text-lg flex items-center justify-center gap-3"

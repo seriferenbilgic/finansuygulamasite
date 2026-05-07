@@ -1,53 +1,63 @@
-# 🌐 Bupara - Modern Finansal Landing Page Tasarımı
+# Finans Uygulaması
 
-<p align="center">
-  <img src="https://i.ibb.co/wNNhP10S/Ekran-Resmi-2026-04-29-06-13-35.png" width="550" alt="Bupara Web Preview">
-</p>
+Bu proje, portföyümde kullanmak üzere hazırladığım modern bir finans sitesi demo uygulamasıdır. React ve Tailwind CSS ile oluşturulan bu proje, finansal ürün tanıtımı, fiyatlandırma planları ve müşteri referanslarını şık bir arayüzde sergilemek için tasarlandı.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-</p>
+## Öne Çıkan Özellikler
 
-<p align="center">
-  <strong>Bupara</strong>, modern finans dünyası için geliştirilmiş, yüksek etkileşimli ve kullanıcı deneyimi odaklı bir <strong>Landing Page</strong> projesidir.  
-  <em>"Profesyonel bir arayüz mimarisi ve portfolyo sunum çalışmasıdır."</em>
-</p>
+- Responsive ve modern tasarım
+- Dinamik fiyatlandırma kartları
+- Kullanıcı dostu bilgi bölümleri
+- Animasyonlu ve etkileşimli içerik
+- Sade, profesyonel bir portföy gösterimi
+
+## Kullanılan Teknolojiler
+
+- React
+- Tailwind CSS
+- Vite / Create React App (projede mevcut yapı)
+- React Icons
+- AOS animasyon kütüphanesi
+
+## Projeyi Çalıştırma
+
+1. Depoyu yerel sunucunuza klonlayın
+
+```bash
+git clone <repo-url>
+cd finans uygulaması
+```
+
+2. Gereklilikleri yükleyin
+
+```bash
+npm install
+```
+
+3. Geliştirme sunucusunu başlatın
+
+```bash
+npm start
+```
+
+4. Tarayıcınızda `http://localhost:3000` adresini açın
+
+## Dosya Yapısı
+
+- `src/components/` — yeniden kullanılabilir React bileşenleri
+- `src/data/` — site içeriği ve metin verileri
+- `src/pages/` — sayfa düzenleri
+- `src/style/` — genel stil tanımlamaları
+
+## Geliştirmek İçin
+
+- Yeni bölümler ekleyebilir veya mevcut içeriği güncelleyebilirsiniz
+- Fiyatlandırma planlarını dinamik hale getirebilirsiniz
+- Tasarımı istediğiniz renkler ile özelleştirebilirsiniz
+
+## Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
 
 ---
 
-## 🎯 Projenin Amacı
-Bu çalışma; modern bir Fintech girişiminin web yüzünü; animasyonlar, modüler bileşen yapısı ve temiz kod prensipleriyle (Clean Code) hayata geçirmek amacıyla hazırlanmıştır. 
-
-## ✨ Öne Çıkan Bölümler
-
-- **Hero Section:** Kullanıcıyı karşılayan, iddialı ve şık giriş alanı.
-- **Dinamik Fiyatlandırma:** React yapısı ile kurgulanmış, etkileşimli paket seçenekleri.
-- **Mockup Tasarımı:** Mobil uygulama deneyimini web üzerinden hissettiren görsel sunumlar.
-- **Performans:** Vite altyapısı sayesinde yüksek hızda yükleme süreleri ve optimize edilmiş bileşenler.
-- **AOS Katmanları:** Modern kaydırma animasyonları (Animate On Scroll) ile desteklenen akıcı kullanıcı deneyimi.
-
-## 🛠️ Teknik Altyapı
-
-- **Frontend:** React.js
-- **Styling:** Tailwind CSS
-- **Animation:** AOS (Animate On Scroll)
-- **Deployment:** Vercel
-
-## 🚀 Kurulum ve Çalıştırma
-
-```bash
-# Projeyi klonlayın
-git clone <repo-url>
-
-# Bağımlılıkları yükleyin
-npm install
-
-# Geliştirme modunda başlatın
-npm run dev
-```
-
-
 **Not:** Bu proje, portföyümde kullanmak üzere kodlanmıştır ve lisanslıdır ticari amaçlarla kullanılması durumunda gerekli birimlere başvurulucaktır.
-

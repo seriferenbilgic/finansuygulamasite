@@ -8,7 +8,7 @@ export const testimonials = [
   {
     quote: "QR Ödemeler ve kart yönetimi özellikleri sayesinde finansal hayatım çok daha düzenli hale geldi. Harcamalarımı takip etmek hiç bu kadar kolay olmamıştı. Kesinlikle tavsiye ederim!",
     author: "Aybüke Bilgiç",
-    role: "Yerel Pastane Sahibi",
+    role: "Yerel Pastahane Sahibi",
     rating: 5
   },
   {

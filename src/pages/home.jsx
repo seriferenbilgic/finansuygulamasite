@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import HeroSection from "../components/HeroSection"
 import StatsSection from "../components/StatsSection"
 import FeatureCard from "../components/FeatureCard"
@@ -11,10 +13,39 @@ import { testimonials } from "../data/testimonials"
 import { faqs } from "../data/faqs"
 
 export default function Home() {
+  const location = useLocation();
+  const [showHeroAnimation, setShowHeroAnimation] = useState(false);
+
+  useEffect(() => {
+    const nextState = location.state || {};
+    const shouldAnimate = nextState.loginSuccess || nextState.showHeroAnimation;
+    const scrollTo = nextState.scrollTo;
+
+    if (shouldAnimate) {
+      setShowHeroAnimation(true);
+      const timeout = setTimeout(() => setShowHeroAnimation(false), 1200);
+      if (!scrollTo) {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+      return () => clearTimeout(timeout);
+    }
+
+    if (scrollTo) {
+      const timeout = setTimeout(() => {
+        const element = document.getElementById(scrollTo);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }, 150);
+      return () => clearTimeout(timeout);
+    }
+  }, [location]);
+
   return (
     <div>
       <section id="hero">
-        <HeroSection />
+        <HeroSection key={showHeroAnimation ? 'animate-hero' : 'hero'} loginSuccess={showHeroAnimation} />
       </section>
 
       <StatsSection />

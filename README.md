@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://i.ibb.co/F403hKP9/image.png" alt="image" border="0"> alt="React Website" width="600">
+</p>
 # Finans Uygulaması
 
 Bu proje, portföyümde kullanmak üzere hazırladığım modern bir finans sitesi demo uygulamasıdır. React ve Tailwind CSS ile oluşturulan bu proje, finansal ürün tanıtımı, fiyatlandırma planları ve müşteri referanslarını şık bir arayüzde sergilemek için tasarlandı.
